@@ -9,7 +9,7 @@ const Herosection = () => {
           <h1>Swagatam</h1>
           <p>"High-Quality Carpets Without the High Price."</p>
           <div className="btn-area">
-            <button className='main-btn white'>Contant Us</button>
+            <button className='main-btn white' ><a href="/contact">Contant Us</a></button>
             <button className='main-btn light'>Our Products</button>
           </div>
         </div>

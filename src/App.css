@@ -26,10 +26,13 @@ h1{
 h2{
     font-size: 42px;
     line-height: 42px;
-    color:#664B37;
+    /* color:#664B37; */
 }
 .heading{
     text-align: center;
+}
+a{
+    text-decoration: none;
 }
 .main-btn{
     padding: 14px 30px;
@@ -56,4 +59,8 @@ h2{
 }
 
 
+.white a{
+    color: #5e3617;
+
+}
 
