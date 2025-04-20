@@ -1,0 +1,32 @@
+.herosection {
+    width: 100%;
+    min-height: 500px;
+    background-image: url('https://ik.imagekit.io/jtmznkfjg/WhatsApp%20Image%202025-04-19%20at%2021.02.48_461f0112.jpg?updatedAt=1745076800902');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+.herosection .container{
+  text-align: center;
+  color: #fff;
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+}
+.herosection .container span{
+  font-size: 18px;
+}
+.herosection .container p{
+  font-size: 24px;
+  line-height: 24px;
+}
+.btn-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
