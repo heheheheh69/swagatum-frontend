@@ -5,12 +5,15 @@ import Login from "./Pages/Login";
 import Dashboard from "./Pages/Dashboard";
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
+      <Header/>
         <Routes>
           <Route path="/" element={<Mainpage />}></Route>
           <Route path="/admin" element={<Login />}></Route>
@@ -18,6 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
         </Routes>
+        <Footer/>
+
       </BrowserRouter>
     </>
   )

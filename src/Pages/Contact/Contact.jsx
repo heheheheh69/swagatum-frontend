@@ -10,44 +10,45 @@ const Contact = () => {
                     <h2>Contact Us</h2>
                 </div>
                 <div className="container">
-                    <div className="get">
-                        <h3>Get In <b>Touch!</b></h3>
-                    </div>
-                    <div className="get-cards">
-                        <div className="get-card">
-                            <div className="icon">
-                                <CiLocationOn />
-                            </div>
-                            <div className="card-details">
-                                <h5>Address</h5>
-                                <span>Teri aaukaat se bahar taj mahal m hu aaja </span>
-                            </div>
-                        </div>
-                        <div className="get-card">
-                            <div className="icon">
-                                <CiMail />
-                            </div>
-                            <div className="card-details">
-                                <h5>Call Us / Mail</h5>
-                                <span> +919999999999 <br />swagatamsupports@gmail.com </span>
-                            </div>
-                        </div>
-                    </div>
-                       <div className="form">
-                       <div className="contact-form-head">
-                            <h2>Enquiry <b>Form</b></h2>
-                            <span>Feel Free To Contact Us!</span>
-                        </div>
+                    <div className="form">
                         <form className="contact-form">
+                            <div className="contact-form-head">
+                                <h2>Enquiry <b>Form</b></h2>
+                                <span>Feel Free To Contact Us!</span>
+                            </div>
                             <input type="text" placeholder='Your Name*' />
                             <input type="email" placeholder='Mail Id*' />
                             <input type="number" placeholder='Contact Number*' />
                             <input type="text" placeholder='Company Name*' />
                             <input type="text" placeholder='Subject*' />
                             <textarea name="Message" className="textarea" placeholder='Message'></textarea>
+                            <button className="main-btn"> <span>SEND NOW!</span></button>
                         </form>
-                        <button className="main-btn"> <span>SEND NOW!</span></button>
-                       </div>
+                    </div>
+                    <div className="get-cards">
+                        <div className="get">
+                            <h2>Get In <b>Touch!</b></h2>
+                        </div>
+                        <div className="get-card">
+                            <div className="icon">
+                                <CiMail />
+                            </div>
+                            <div className="card-details">
+                                <h5>Mail / Phone</h5>
+                                <p>swagatamsupports@gmail.com <br />9999999999</p>
+                            </div>
+                        </div>
+                        <div className="get-card">
+                            <div className="icon">
+                                <CiLocationOn />
+                            </div>
+                            <div className="card-details">
+                                <h5>Address</h5>
+                                <p>Teri aaukaat se bahar taj m  hu</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </>
