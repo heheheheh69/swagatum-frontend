@@ -57,9 +57,11 @@ a{
     background-color: #fff;
     color: #5e3617;
 }
+.light a ,.main-btn a{
+    color: #fff;
+}
 
-
-.white a{
+.white a {
     color: #5e3617;
 
 }

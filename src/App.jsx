@@ -4,6 +4,7 @@ import Mainpage from "./Pages/Mainpage";
 import Login from "./Pages/Login";
 import Dashboard from "./Pages/Dashboard";
 import Contact from "./Pages/Contact/Contact";
+import About from "./Pages/About/About";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Mainpage />}></Route>
           <Route path="/admin" element={<Login />}></Route>
+          <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
         </Routes>

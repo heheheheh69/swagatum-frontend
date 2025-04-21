@@ -16,7 +16,7 @@ const Aboutus = () => {
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                         <h3>Swagatam</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius veritatis, optio cum placeat laudantium culpa impedit laboriosam deserunt sunt atque sit, iste quisquam ipsam assumenda illo aut delectus laborum molestias!</p>
-                        <button className='main-btn'>Adout us</button>
+                        <button className='main-btn'><a href="/about"  target='_blank'>Adout us</a></button>
                     </div>
                 </div>
             </div>
