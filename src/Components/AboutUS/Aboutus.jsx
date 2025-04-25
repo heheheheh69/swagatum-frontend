@@ -5,17 +5,17 @@ const Aboutus = () => {
     <>
         <div className="aboutus">
             <div className="container">
-                <div className="heading">
-                    <h2>
-                        About Us
-                    </h2>
-                </div>
+                
                 <div className="about-content">
                     <img src="./src/assets/about.jpeg" alt="" />
                     <div className="about-txt">
-                        <h3>Swagatam</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius veritatis, optio cum placeat laudantium culpa impedit laboriosam deserunt sunt atque sit, iste quisquam ipsam assumenda illo aut delectus laborum molestias!</p>
-                        <button className='main-btn'><a href="/about"  target='_blank'>Adout us</a></button>
+                    <h2>
+                        About Us
+                    </h2>
+                        <h3>who we are ?</h3>
+                        <p>At Swagatum, we believe that a beautiful space starts from the ground up. Our mission is to bring warmth, style, and comfort into your home through thoughtfully crafted carpets. Whether you're designing a modern living space or adding a cozy touch to a traditional room, our diverse range of carpets is designed to complement every lifestyle.</p>
+                        <span><b>Ready to learn more or get in touch? We're here to help—reach out to us today and let’s create something amazing together.</b></span>
+                        <button className='main-btn'>About us</button>
                     </div>
                 </div>
             </div>

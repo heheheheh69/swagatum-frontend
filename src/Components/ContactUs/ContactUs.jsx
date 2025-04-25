@@ -11,8 +11,8 @@ const ContactUs = () => {
             <div className="contact-all"> 
 
             <div className="contact-content">
-                <h3 style={{color:"#fff"}}>Join Us & Grow Your Buisness</h3>
-                <span>Lets Explore Opportunities, Tailor Statergies, And Chart A Course To Financial Success Together</span>
+                <h2 style={{color:"#fff"}}>Let's Connect</h2>
+                <h3>We're here for you</h3>
             </div>
             <button className='main-btn white'>Contact us</button>
             </div>

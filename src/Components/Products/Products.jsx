@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowRightLong } from "react-icons/fa6";
 import "./Products.css"
 const Products = () => {
     return (
@@ -9,50 +10,24 @@ const Products = () => {
                         <h2>
                             Products Range
                         </h2>
+                        <h3>
+                            What We Offer
+                        </h3>
                     </div>
                 <div className="products-content">
                     <div className="product-card">
-                                <h3>Non Woven Carpet</h3>
-                        <ul>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                        </ul>
+                                <h2>Non Woven Carpet</h2>
+                                <a href="#">View Products <FaArrowRightLong /> </a>
                     </div>
                     <div className="product-card">
-                                <h3>Non Woven Carpet</h3>
-                        <ul>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                        </ul>
+                                <h2>Non Woven Carpet</h2>
+                                <a href="#">View Products <FaArrowRightLong /> </a>
                     </div>
                     <div className="product-card">
-                                <h3>Non Woven Carpet</h3>
-                        <ul>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                            <li>
-                                <p>shoiahdoij</p>
-                            </li>
-                        </ul>
+                                <h2>Non Woven Carpet</h2>
+                                <a href="#">View Products <FaArrowRightLong /> </a>
                     </div>
+                    
                     
                 </div>
                 </div>

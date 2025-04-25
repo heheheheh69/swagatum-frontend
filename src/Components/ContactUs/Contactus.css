@@ -1,6 +1,4 @@
 .contactus{
-    min-height: 300px;
-    /* padding: 50px 0 0 0; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,20 +14,24 @@
 }
 .contact-all{
     border-radius: 12px;
-    background-color: #331c08ed;
+    background-color: #1E8D87;
     width:100%;
     height: 100%;
-    display: flex;
+    display: flex;flex-direction: column    ;
     justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     align-items: center;
     padding:40px;
-
+    gap:20px;
 }
 .contact-content{
     display: flex;
     flex-direction: column;
     max-width: calc(80% - 10px);
     width: 100%;
+    text-align: center;
     gap:10px;
     color: #fff;
 }
@@ -38,10 +40,7 @@
     line-height: 36px;
 }
 .contact-all button{
-    max-width: calc(20% - 10px);
-    width: 100%;
-    padding: 20px;
-
+        padding: 10px 30px;
 }
 @media screen and (max-width:950px) {
     .contact-all{

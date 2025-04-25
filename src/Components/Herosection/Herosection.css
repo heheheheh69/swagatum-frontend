@@ -1,17 +1,36 @@
 .herosection {
-    width: 100%;
-    min-height: 500px;
-    background-image: url('https://ik.imagekit.io/jtmznkfjg/WhatsApp%20Image%202025-04-19%20at%2021.02.48_461f0112.jpg?updatedAt=1745076800902');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0;
-  }
+  width: 100%;
+  min-height: 500px;
+  background-image: 
+    linear-gradient(
+      to right,
+      rgba(30, 141, 135, 0.7) 0%,     /* Teal with 70% opacity on the left */
+      rgba(30, 141, 135, 0.5) 50%,    /* Teal with 50% opacity in the center */
+      rgba(0, 0, 0, 0.5) 100%         /* Black with 50% opacity on the right */
+    ),
+    url('./src/assets/herosection.avif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+
+  .herosection h1, .herosection p{
+  text-align: left;
+  color: #fff;
+
+}
+.herosection p{
+  font-size: 24px;
+  line-height: 28px;
+}
   
 .herosection .container{
   text-align: center;
+  width: 100%;
   color: #fff;
   gap:10px;
   display: flex;
@@ -20,13 +39,14 @@
 .herosection .container span{
   font-size: 18px;
 }
-.herosection .container p{
-  font-size: 24px;
-  line-height: 24px;
-}
+
 .btn-area{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap:20px;
+  padding-top: 10px;
+}
+.btn-area button{
+  padding: 10px 30px;
 }
