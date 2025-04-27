@@ -13,7 +13,7 @@ const Contact = () => {
                     <div className="form">
                         <form className="contact-form">
                             <div className="contact-form-head">
-                                <h2>Enquiry <b>Form</b></h2>
+                                <h3>Enquiry Form</h3>
                                 <span>Feel Free To Contact Us!</span>
                             </div>
                             <input type="text" placeholder='Your Name*' />
@@ -22,33 +22,32 @@ const Contact = () => {
                             <input type="text" placeholder='Company Name*' />
                             <input type="text" placeholder='Subject*' />
                             <textarea name="Message" className="textarea" placeholder='Message'></textarea>
-                            <button className="main-btn"> <span>SEND NOW!</span></button>
+                            <button className="main-btn"> SEND NOW !</button>
                         </form>
                     </div>
-                    <div className="get-cards">
-                        <div className="get">
-                            <h2>Get In <b>Touch!</b></h2>
+                    <div className="getIn">
+                        <div className="get-head">
+                            <h3>Get in Touch</h3>
                         </div>
-                        <div className="get-card">
-                            <div className="icon">
-                                <CiMail />
+                        <div className="addresses">
+                            <div className="address">
+                                <h2>Location</h2>
+                                <p>Plot No. - 98, Near Taj Mahal</p>
+                                <p>Agra</p>
                             </div>
-                            <div className="card-details">
-                                <h5>Mail / Phone</h5>
-                                <p>swagatamsupports@gmail.com <br />9999999999</p>
+                            <div className="address">
+                                <h2>Call Us / Email</h2>
+                                <p>+919874396933, +91818278723</p>
+                                <p>swatamcare@gmail.com</p>
+                            </div>
+                            <div className="address">
+                                <h2>Location</h2>
+                                <p>Plot No. - 98, Near Taj Mahal</p>
+                                <p>Agra</p>
                             </div>
                         </div>
-                        <div className="get-card">
-                            <div className="icon">
-                                <CiLocationOn />
-                            </div>
-                            <div className="card-details">
-                                <h5>Address</h5>
-                                <p>Teri aaukaat se bahar taj m  hu</p>
-                            </div>
-                        </div>
-
                     </div>
+                   
                 </div>
             </div>
         </>

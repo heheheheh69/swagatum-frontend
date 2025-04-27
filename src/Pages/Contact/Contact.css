@@ -1,7 +1,14 @@
 .contact-head {
     width: 100%;
     min-height: 250px;
-    background-image: url('https://ik.imagekit.io/jtmznkfjg/WhatsApp%20Image%202025-04-19%20at%2021.02.48_461f0112.jpg?updatedAt=1745076800902');
+    background-image: 
+    linear-gradient(
+      to right,
+      rgba(30, 141, 135, 0.7) 0%,     
+      rgba(30, 141, 135, 0.5) 50%,   
+      rgba(0, 0, 0, 0.5) 100%         
+    ),
+    url('./src/assets/herosection.avif');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -14,13 +21,11 @@
     height:100%;
     display: flex;
     align-items: center;    
-    /* justify-content: center; */
     flex-direction: column;
 }
 .contact .container{
     width:100%;
     display: flex;
-    /* align-items: center; */
     gap:50px;
     justify-content: center;
 }
@@ -28,56 +33,9 @@
     color: #fff;
     text-transform: uppercase;
 }
-.get{
-    padding: 50px 0 00 0;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    text-align: center;
-}
-.get h3{
-    font-size: 36px;
-    line-height: 36px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-.get-cards{
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0 ;
-    width: 40%;
-align-items: center;
-gap:30px;
-}
-.get-card{
-    display: flex;
-    gap:16px;
-    padding: 20px 30px ;
-    min-height: 100px;
-    border: none;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.icon{
-    font-size: 34px;
-    line-height: 34px;
-    width: 20%;
-}
-.card-details{
-width:80%
-}
-.card-details span{
-    font-size: 16px;
-    line-height: 16px;
-}
-.card-details h5{
-    font-size: 18px;
-    line-height: 1.6;
-}
+
 .contact-form{
-    padding: 50px  0 ;
+    padding: 50px  10px ;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -86,7 +44,6 @@ width:80%
     justify-content: center;
 }
 .contact-form input{
-    max-width: 340px;
     padding: 10px 30px 10px 20px;
     width: 100%;
     border-radius: 6px;
@@ -101,7 +58,6 @@ width:80%
 }
 
 .contact-form textarea{
-    max-width: 340px;
     width: 100%;
     min-height: 200px;
     padding: 20px;
@@ -111,7 +67,6 @@ width:80%
     outline: none;
 }
 .contact-form-head{
-    text-align: center;
     display: flex;
     flex-direction: column;
     gap:14px;
@@ -124,8 +79,9 @@ width:80%
     opacity: 0.7;
 }
 .form{
-    padding: 50px 10px;
     display: flex;
+    width: 50%;
+    /* background-color: aqua; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -152,10 +108,29 @@ width:80%
         width:100%;
         align-items: center;
     }
-    .get{
-        padding-top: 0;
-    }
-    .get-card{
-        min-width: 360px;
-    }
+}
+.getIn{
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+    align-items: center;
+}
+
+.address h2{
+    text-align: center; 
+    text-decoration: underline;
+}
+.addresses{
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px 0 ; */
+    gap:40px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
 }

@@ -3,8 +3,8 @@ import Herosection from '../Components/Herosection/Herosection'
 import Aboutus from '../Components/AboutUS/Aboutus'
 import Products from '../Components/Products/Products'
 import ContactUs from '../Components/ContactUs/ContactUs'
-import Footer from '../Components/Footer/Footer'
 import Map from '../Components/Map/Map'
+import WhyUs from '../Components/WhyUs/WhyUs'
 
 const Mainpage = () => {
   return (
@@ -12,6 +12,7 @@ const Mainpage = () => {
       <Herosection />
       <Aboutus />
       <Products />
+      <WhyUs/>
       <ContactUs />
       <Map/>
     </>
