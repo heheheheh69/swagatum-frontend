@@ -26,9 +26,8 @@
 .aboutus-txt{
     display: flex;
     width:calc(50%-10px);
-
     flex-direction: column;
-    gap:10px;
+    gap:20px;
     /* justify-content: space-between;  */
 }
 .why-list{
@@ -44,11 +43,10 @@
 }
 .about-txt span{
     font-size: 14px;
-    padding-bottom: 10px;
 }
 .aboutus-txt p{
     color: #000000cb;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 @media screen and (max-width:805px) {
