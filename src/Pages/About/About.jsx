@@ -7,12 +7,12 @@ const About = () => {
   return (
     <>
       <div className="about main">
-          <div className="contact-head">
-                    <h2>About Us</h2>
-          </div>
-          <Aboutus/>
-          <Missions/>
-          <WhyUs/>
+        <div className="contact-head">
+          <h2>About Us</h2>
+        </div>
+        <Aboutus />
+        <Missions />
+        <WhyUs />
       </div>
     </>
   )

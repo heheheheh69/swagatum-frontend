@@ -7,7 +7,7 @@ const Aboutus = () => {
                 <div className="container">
 
                     <div className="aboutus-content">
-                        <img src="./src/assets/about.jpeg" alt="" />
+                        <img src="./src/assets/about.png" alt="" />
                         <div className="aboutus-txt">
                             <div className="head">
                                 <h2>

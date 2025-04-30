@@ -1,20 +1,36 @@
-import React from 'react'
-import "./Header.css"
-const Header = () => {
-  return (
-    <>
-      <header className="header">
-        <div className="logo">Logo</div>
-        <ul className='nav-elements'>
-            <li><a href="#">Demo</a></li>
-            <li><a href="#">Demo</a></li>
-            <li><a href="#">Demo</a></li>
-            <li><a href="#">Demo</a></li>
-        </ul>
-        <div className="companies">button</div>
-      </header>
-    </>
-  )
-}
+import React, { useState } from 'react';
+import "./Header.css";
+import { IoIosMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
+import { NavLink } from 'react-router-dom';
 
-export default Header
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
+
+  return (
+    <header className="header">
+      <div className="container innnerHeader">
+        <div className="logo">Logo</div>
+
+        <button className="menuBtn" onClick={toggleMenu}>
+          <IoIosMenu />
+        </button>
+
+        <nav className={menuOpen ? "open" : ""}>
+          <button className="closemenu" onClick={closeMenu}>
+            <IoClose />
+          </button>
+          <NavLink to="/" onClick={closeMenu}>Home</NavLink>
+          <NavLink to="/products" onClick={closeMenu}>Products</NavLink>
+          <NavLink to="/about" onClick={closeMenu}>About Us</NavLink>
+          <NavLink to="/contact" onClick={closeMenu}>Contact Us</NavLink>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

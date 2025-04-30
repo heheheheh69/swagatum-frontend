@@ -15,15 +15,15 @@ const Products = () => {
                         </h3>
                     </div>
                 <div className="products-content">
-                    <div className="product-card">
+                    <div className="product-category-card">
                                 <h2>Non Woven Carpet</h2>
                                 <a href="#">View Products <FaArrowRightLong /> </a>
                     </div>
-                    <div className="product-card">
+                    <div className="product-category-card">
                                 <h2>Non Woven Carpet</h2>
                                 <a href="#">View Products <FaArrowRightLong /> </a>
                     </div>
-                    <div className="product-card">
+                    <div className="product-category-card">
                                 <h2>Non Woven Carpet</h2>
                                 <a href="#">View Products <FaArrowRightLong /> </a>
                     </div>

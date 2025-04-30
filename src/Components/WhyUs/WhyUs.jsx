@@ -9,7 +9,7 @@ const WhyUs = () => {
                 <div className="aboutus-content">
                     <div className="abt-img">
 
-                    <img src="./src/assets/about.jpeg" alt="" />
+                    <img src="./src/assets/hands.png" alt="" />
                     </div>
                     <div className="aboutus-txt">
                         <div className="head">

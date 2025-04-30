@@ -1,0 +1,69 @@
+[
+  {
+    "category": "Category 1",
+    "products": [
+      {
+        "productTitle": "DEMO Product 1",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "DEMO Product 2",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "DEMO Product 3",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "DEMO Product 2",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "DEMO Product 3",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "DEMO Product 2",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "DEMO Product 3",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      }
+    ]
+  },
+  {
+    "category": "Category 2",
+    "products": [
+      {
+        "productTitle": "Another Product 1",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "Another Product 2",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      }
+    ]
+  },
+  {
+    "category": "Category 3",
+    "products": [
+      {
+        "productTitle": "Extra Product A",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "Extra Product B",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "Extra Product C",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      },
+      {
+        "productTitle": "Extra Product D",
+        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+      }
+    ]
+  }
+]

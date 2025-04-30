@@ -1,12 +1,14 @@
 .herosection {
   width: 100%;
   min-height: 500px;
-  background-image: 
-    linear-gradient(
-      to right,
-      rgba(30, 141, 135, 0.7) 0%,     /* Teal with 70% opacity on the left */
-      rgba(30, 141, 135, 0.5) 50%,    /* Teal with 50% opacity in the center */
-      rgba(0, 0, 0, 0.5) 100%         /* Black with 50% opacity on the right */
+  background-image:
+    linear-gradient(to right,
+      rgba(30, 141, 135, 0.7) 0%,
+      /* Teal with 70% opacity on the left */
+      rgba(30, 141, 135, 0.5) 50%,
+      /* Teal with 50% opacity in the center */
+      rgba(0, 0, 0, 0.5) 100%
+      /* Black with 50% opacity on the right */
     ),
     url('./src/assets/herosection.avif');
   background-size: cover;
@@ -17,36 +19,37 @@
   padding: 50px 0;
 }
 
-
-  .herosection h1, .herosection p{
+.herosection h1,
+.herosection p {
   text-align: left;
   color: #fff;
-
 }
-.herosection p{
+
+.herosection p {
   font-size: 24px;
   line-height: 28px;
 }
-  
-.herosection .container{
+
+.herosection .container {
   text-align: center;
   width: 100%;
   color: #fff;
-  gap:10px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
 }
-.herosection .container span{
+
+.herosection .container span {
   font-size: 18px;
 }
 
-.btn-area{
+.btn-area {
   display: flex;
   align-items: center;
   justify-content: left;
-  gap:20px;
+  gap: 20px;
   padding-top: 10px;
 }
-.btn-area button{
+.btn-area button {
   padding: 10px 30px;
 }

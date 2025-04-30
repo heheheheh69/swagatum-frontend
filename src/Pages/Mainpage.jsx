@@ -12,9 +12,9 @@ const Mainpage = () => {
       <Herosection />
       <Aboutus />
       <Products />
-      <WhyUs/>
+      <WhyUs />
       <ContactUs />
-      <Map/>
+      <Map />
     </>
   )
 }
