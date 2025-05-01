@@ -7,7 +7,7 @@ const WhyUs = () => {
             <div className="container">
                 
                 <div className="aboutus-content">
-                    <div className="abt-img">
+                    <div className="abt-img" >
 
                     <img src="./src/assets/hands.png" alt="" />
                     </div>

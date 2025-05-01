@@ -21,7 +21,8 @@
     gap:50px;
 }
 .aboutus-content img{
-    max-width: 500px
+    max-width: 500px;
+    padding: 0 20px;
 }
 .aboutus-txt{
     display: flex;
