@@ -80,3 +80,62 @@ nav a.active {
     }
 }
 
+.header {
+  background: #fff;
+  padding: 1rem;
+  position: relative;
+  z-index: 1000;
+}
+
+.innnerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuBtn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Hide nav by default on small screens */
+@media (max-width: 768px) {
+  .menuBtn {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%; /* hidden by default */
+    width: 60%;
+    height: 100vh;
+    background: #f8f8f8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  nav.open {
+    right: 0; /* slide in when menu is open */
+  }
+
+  .closemenu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+  }
+}
