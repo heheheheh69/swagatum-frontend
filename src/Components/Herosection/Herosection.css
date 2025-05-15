@@ -10,7 +10,7 @@
       rgba(0, 0, 0, 0.5) 100%
       /* Black with 50% opacity on the right */
     ),
-    url('./src/assets/herosection.avif');
+    url('./Images/herosection.avif');
   background-size: cover;
   background-position: center;
   display: flex;

@@ -1,68 +1,72 @@
 [
   {
-    "category": "Category 1",
+    "category": "NON WOVEN CARPETS",
     "products": [
       {
-        "productTitle": "DEMO Product 1",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Felt",
+        "image": "./Images/felt.jpeg"
       },
       {
-        "productTitle": "DEMO Product 2",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Jute",
+        "image": "./Images/jute.jpg"
       },
       {
-        "productTitle": "DEMO Product 3",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Rib",
+        "image": "./Images/rib.jpg"
       },
       {
-        "productTitle": "DEMO Product 2",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Stripe",
+        "image": "./Images/stripe.jpg"
       },
       {
-        "productTitle": "DEMO Product 3",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Velour",
+        "image": "./Images/velour.avif"
       },
       {
-        "productTitle": "DEMO Product 2",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Embose",
+        "image": "./Images/embose.jpg"
       },
       {
-        "productTitle": "DEMO Product 3",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Rib Stripe",
+        "image": "./Images/ribstripe.jpg"
       }
     ]
   },
   {
-    "category": "Category 2",
+    "category": "MATTING",
     "products": [
       {
-        "productTitle": "Another Product 1",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Cushion Mat",
+        "image": "./Images/cushionmat.jpg"
       },
       {
-        "productTitle": "Another Product 2",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Artificial Grass Mat",
+        "image": "./Images/artificialgrassmat.webp"
+      },
+      {
+        "productTitle": "Mono Grass Mat",
+        "image": "./Images/monograssmat.jpeg"
+      },
+      {
+        "productTitle": "Door Foot Mat",
+        "image": "./Images/doorfootmat.jpeg"
       }
     ]
   },
   {
-    "category": "Category 3",
+    "category": "PRINTING ON NON WOVEN FELT CARPET ",
     "products": [
       {
-        "productTitle": "Extra Product A",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Paper Printing Carpet",
+        "image": "./Images/paperprintingcarpet.jpeg"
       },
       {
-        "productTitle": "Extra Product B",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "Rotary Printing Carpet",
+        "image": "./Images/Rotary-Printing-Carpet.jpg"
       },
       {
-        "productTitle": "Extra Product C",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
-      },
-      {
-        "productTitle": "Extra Product D",
-        "image": "https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740"
+        "productTitle": "3D Digital Printing",
+        "image": "./Images/3dDigitalPrinting.jpeg"
       }
     ]
   }
