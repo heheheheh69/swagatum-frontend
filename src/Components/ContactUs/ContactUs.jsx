@@ -14,7 +14,7 @@ const ContactUs = () => {
                 <h2 style={{color:"#fff"}}>Let's Connect</h2>
                 <h3>We're here for you</h3>
             </div>
-            <button className='main-btn white'>Contact us</button>
+            <button className='main-btn white'><a href="/contact">Contact Us</a></button>
             </div>
         </div>
       </div>

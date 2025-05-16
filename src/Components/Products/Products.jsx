@@ -17,15 +17,15 @@ const Products = () => {
                 <div className="products-content">
                     <div className="product-category-card">
                                 <h2>Non Woven Carpet</h2>
-                                <a href="#">View Products <FaArrowRightLong /> </a>
+                                <a href="/products">View Products <FaArrowRightLong /> </a>
                     </div>
                     <div className="product-category-card">
-                                <h2>Non Woven Carpet</h2>
-                                <a href="#">View Products <FaArrowRightLong /> </a>
+                                <h2>Matting</h2>
+                                <a href="/products">View Products <FaArrowRightLong /> </a>
                     </div>
                     <div className="product-category-card">
-                                <h2>Non Woven Carpet</h2>
-                                <a href="#">View Products <FaArrowRightLong /> </a>
+                                <h2>Printing On Non Woven  Carpet</h2>
+                                <a href="/products">View Products <FaArrowRightLong /> </a>
                     </div>
                     
                     
