@@ -7,21 +7,21 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container container">
         <div className="footer-section logo">
-          <h2>Address</h2>
-          <p>Taj mahal k niche qutub minar k piche.</p>
+          <h4>Address</h4>
+          <p>A-752, shop area near  Taj mahal and laal qila . </p>
           <button className='map-btn'><Link to="/">view on map</Link></button>
         </div>
          <div className="footer-section">
-          <h4>Contact Us</h4>
+          <h2>Contact Us</h2>
           <p>Phone: +1 234 567 890</p>
           <p>Phone: +1 234 567 890</p>
         </div>
          <div className="footer-section">
-          <h4>Contact Email</h4>
+          <h2>Contact Email</h2>
           <p>Email: support@example.com</p>
         </div>
         <div className="footer-section footer-links">
-          <h2 className='FooterHeading'>Quick Links</h2>
+          <h2 >Quick Links</h2>
           <div className="quick-link-row">
             <Link to="/">Home</Link>
             <Link to="/products">Products</Link>
@@ -35,6 +35,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Your Company. All rights reserved.</p>
+        <p className='company'>Developed by - <a href="#" style={{ textDecoration: 'underline' , color:'#656565' }}>Technoginies</a></p>
       </div>
     </footer>
   );
