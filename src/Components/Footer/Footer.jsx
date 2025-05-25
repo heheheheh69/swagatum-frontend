@@ -21,11 +21,13 @@ const Footer = () => {
           <p>Email: support@example.com</p>
         </div>
         <div className="footer-section footer-links">
-          <h4>Quick Links</h4>
-          <Link to="/">Home</Link>
-          <Link to="/products">Products</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <h2 className='FooterHeading'>Quick Links</h2>
+          <div className="quick-link-row">
+            <Link to="/">Home</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
         </div>
        
 
