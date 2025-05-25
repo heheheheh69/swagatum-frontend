@@ -16,7 +16,7 @@ const Contact = () => {
                         <div className="addresses">
                             <h2>Have A Question.? </h2>
                             <h3>Let's Connect Now</h3>
-                            <p>Have questions or need help choosing the perfect carpet? We’re here for you! Whether you're looking for design advice, fabric details, pricing, or custom options, our team at Swagatam is happy to assist. Simply fill out the form below, and we’ll get back to you as soon as possible. Let’s create something beautiful together — contact us today for more information!</p>
+                            <p>Have questions or need help choosing the perfect carpet? We're here for you! Whether you're looking for design advice, fabric details, pricing, or custom options, our team at Swagatam is happy to assist. Simply fill out the form below, and we'll get back to you as soon as possible. Let's create something beautiful together — contact us today for more information!</p>
                             <div className="address">
                             <FaLocationDot />
                             <p> Plot No. - 98, Near Taj Mahal <br />Agra</p>
