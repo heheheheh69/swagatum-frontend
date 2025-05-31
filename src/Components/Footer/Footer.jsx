@@ -8,17 +8,20 @@ const Footer = () => {
       <div className="footer-container container">
         <div className="footer-section logo">
           <h4>Address</h4>
-          <p>A-752, shop area near  Taj mahal and laal qila . </p>
+          <p>Khasra No. 84, New Industrial Area, <br /> Village Thedi Baba Sawan Singh , <br /> Sirsa-125055(Haryana). </p>
           <button className='map-btn'><Link to="/">view on map</Link></button>
         </div>
          <div className="footer-section">
           <h2>Contact Us</h2>
-          <p>Phone: +1 234 567 890</p>
-          <p>Phone: +1 234 567 890</p>
+          <p>Phone: +91  9050370362  </p>
+          <p>Phone: +91 8448441376</p>
         </div>
          <div className="footer-section">
-          <h2>Contact Email</h2>
-          <p>Email: support@example.com</p>
+          <h2>Contact Email's</h2>
+          <p>Email: sales@mcclnonwovenind.com <br />
+              Email: info@mcclnonwovenind.com <br />
+            Email: account@mcclnonwovenind.com
+</p>
         </div>
         <div className="footer-section footer-links">
           <h2 >Quick Links</h2>
