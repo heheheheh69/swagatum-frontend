@@ -19,16 +19,19 @@ const Contact = () => {
                             <p>Have questions or need help choosing the perfect carpet? We're here for you! Whether you're looking for design advice, fabric details, pricing, or custom options, our team at Swagatam is happy to assist. Simply fill out the form below, and we'll get back to you as soon as possible. Let's create something beautiful together — contact us today for more information!</p>
                             <div className="address">
                             <FaLocationDot />
-                            <p> Plot No. - 98, Near Taj Mahal <br />Agra</p>
+                            <p> Khasra No. 84, New Industrial Area <br /> Village Thedi Baba Sawan Singh <br /> Sirsa-125055(Haryana) <br />Agra</p>
                             </div>
                             <div className="address">
                             <IoCall />
-                                <p>+919874396933, +91818278723</p>
+                                <p>+91 9050370362 , +91 8448441376</p>
                             </div>
                             <div className="address">
                             <FaEnvelope />
 
-                                <p>swatamcare@gmail.com</p>
+                                <p>sales@mcclnonwovenind.com <br />
+              info@mcclnonwovenind.com <br />
+            account@mcclnonwovenind.com
+</p>
                             </div>
                         </div>
                     </div>

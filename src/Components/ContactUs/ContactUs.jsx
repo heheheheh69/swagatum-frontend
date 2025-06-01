@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Contactus.css"
+import { Link } from 'react-router-dom';
 import Map from '../Map/Map'
 const ContactUs = () => {
   return (
@@ -14,7 +15,7 @@ const ContactUs = () => {
                 <h2 style={{color:"#fff"}}>Let's Connect</h2>
                 <h3>We're here for you</h3>
             </div>
-            <button className='main-btn white'><a href="/contact">Contact Us</a></button>
+            <button className='main-btn white'><Link to="/contact">Contact Us</Link></button>
             </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Aboutus.css"
+import { Link } from 'react-router-dom';
+
 const Aboutus = () => {
     return (
         <>
@@ -24,7 +26,7 @@ In today’s competitive times, carpet industry in India is focusing on manufact
  <br /><br />
                                 <b>Ready to learn more or get in touch? We're here to help—reach out to us today and let's create something amazing together.</b></p>
                                 
-                            <button className='main-btn'><a href="/about">Aboutus</a></button>
+                            <button className='main-btn'><Link to="/about">About Us</Link></button>
                         </div>
                     </div>
                 </div>

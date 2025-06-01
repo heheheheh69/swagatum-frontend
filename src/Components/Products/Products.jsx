@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./Products.css"
+import { Link } from 'react-router-dom';
+
 const Products = () => {
     return (
         <>
@@ -17,15 +19,17 @@ const Products = () => {
                 <div className="products-content">
                     <div className="product-category-card">
                                 <h2>Non Woven Carpet</h2>
-                                <a href="/products">View Products <FaArrowRightLong /> </a>
+                                <Link to="/products">View Products <FaArrowRightLong /></Link>
                     </div>
                     <div className="product-category-card">
                                 <h2>Matting</h2>
-                                <a href="/products">View Products <FaArrowRightLong /> </a>
+                                <Link to="/products">View Products <FaArrowRightLong /></Link>
+                                
                     </div>
                     <div className="product-category-card">
                                 <h2>Printing On Non Woven  Carpet</h2>
-                                <a href="/products">View Products <FaArrowRightLong /> </a>
+                                <Link to="/products">View Products <FaArrowRightLong /></Link>
+                                
                     </div>
                     
                     
