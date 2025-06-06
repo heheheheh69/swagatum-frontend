@@ -21,13 +21,15 @@ const WhyUs = () => {
                         </div>
                         <p>At Swagatam, we don't just sell carpets — we bring warmth, elegance, and craftsmanship into your home. Here's why Swagatam is the trusted choice for high-quality fiber carpets:</p>
                         <ul className='why-list'>
-                            <li><span> Unmatched Quality </span><br />
-                            <p>
-Our carpets are crafted using premium fibers sourced from trusted suppliers. Whether it's soft-touch nylon, durable polyester, or luxurious wool blends, each carpet reflects a commitment to lasting beauty and resilience.</p></li>
-                            <li><span>Elegant Designs, Endless Variety </span><br /><p>
-From traditional patterns to modern textures, our collection includes a wide range of styles and fabrics to match every taste and space. Swagatam carpets are not just floor coverings — they're design statements.</p></li>
-                            <li><span> Expert Craftsmanship<br /> </span><p>
-Every Swagatam carpet is made with precision and care by skilled artisans. We blend advanced techniques with artistic detail to ensure each piece is flawless, functional, and visually stunning</p></li>
+                           <li><span>Unmatched Quality</span><br />
+<p>Crafted from premium fibers for durability, comfort, and long-lasting beauty.</p></li>
+
+<li><span>Elegant Designs</span><br />
+<p>A wide range of styles—from classic to modern—to suit every space and taste.</p></li>
+
+<li><span>Expert Craftsmanship</span><br />
+<p>Skilled artisans create each carpet with precision, detail, and quality finish.</p></li>
+
                         </ul>
                     </div>
                 </div>

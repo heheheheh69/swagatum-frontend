@@ -18,11 +18,11 @@ const Aboutus = () => {
                                 <h3>who we are ?</h3>
                             </div>
 
-                            <p>MCCL Non Woven Industries  started its journey  way back in 2007’s, with a small set-up at Sirsa,,Haryana as a Manufacture  of Non woven carpets and Textile Carpet . Gradually, with hard work, dedication and high quality, we are manufacturing a complete range of Non Woven carpet, PVC Mat, Looppile, Graphic carpet and Artificial Grass Mat .
+                            <p>MCCL Non Woven Industries started in 2007 with a small manufacturing unit in Sirsa, Haryana. Through dedication, innovation, and a focus on quality, we have grown into a leading manufacturer and wholesaler of a wide range of flooring solutions. <br />
 
-Today, with the brand name of Swagatam and Rhythm in carpet industries , it is an established name in the industry known for providing finest quality products. We are a reputed Manufacturer and wholesaler of Tent House and Banquet Carpets, Printed Carpets, PVC Mat Floorings, Cushion Mats, Door Mats, Artificial Grass and Designer 3D Carpets.
+Under our trusted brands Swagatam and Rhythm, we offer high-quality Non-Woven Carpets, PVC Mats, Looppile, Graphic Carpets, and Artificial Grass Mats. Our product line also includes Tent and Banquet Carpets, Printed Carpets, Cushion Mats, Door Mats, Designer 3D Carpets, and more. <br />
 
-In today’s competitive times, carpet industry in India is focusing on manufacturing globally competitive product range by making use of the latest technology & innovation. By serving the growing requirements of our clients, we constantly upgrade our quality product range to be on the competitive edge among other carpet companies in India.
+In an evolving and competitive market, we stay ahead by using the latest technology and continuously upgrading our products to meet global standards and customer expectations.
  <br /><br />
                                 <b>Ready to learn more or get in touch? We're here to help—reach out to us today and let's create something amazing together.</b></p>
                                 
