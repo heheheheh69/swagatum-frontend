@@ -18,11 +18,8 @@ const Aboutus = () => {
                                 <h3>who we are ?</h3>
                             </div>
 
-                            <p>MCCL Non Woven Industries started in 2007 with a small manufacturing unit in Sirsa, Haryana. Through dedication, innovation, and a focus on quality, we have grown into a leading manufacturer and wholesaler of a wide range of flooring solutions. <br />
+                            <p>MCCL Non Woven Industries, established in 2007 in Sirsa, Haryana, has grown into a leading manufacturer and wholesaler of premium flooring solutions. Under our brands *Swagatam* and *Rhythm*, we offer a wide range of products including Non-Woven Carpets, PVC Mats, Looppile, Graphic Carpets, Artificial Grass, and more. Committed to quality and innovation, we continuously upgrade our offerings to meet global standards and evolving customer needs.
 
-Under our trusted brands Swagatam and Rhythm, we offer high-quality Non-Woven Carpets, PVC Mats, Looppile, Graphic Carpets, and Artificial Grass Mats. Our product line also includes Tent and Banquet Carpets, Printed Carpets, Cushion Mats, Door Mats, Designer 3D Carpets, and more. <br />
-
-In an evolving and competitive market, we stay ahead by using the latest technology and continuously upgrading our products to meet global standards and customer expectations.
  <br /><br />
                                 <b>Ready to learn more or get in touch? We're here to help—reach out to us today and let's create something amazing together.</b></p>
                                 
