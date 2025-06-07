@@ -7,11 +7,11 @@ const Herosection = () => {
     <>
     <div className="herosection">
         <div className="container">
-          <h1>“Your Floor. Our Legacy.”</h1>
-          <p>“From Sirsa to across India — bringing you a range of high-quality non-woven carpets, mats, and artificial grass that stand the test of time.”</p>
+          <h1>Your Floor. Our Legacy.</h1>
+          <p>From Sirsa to across India — bringing you a range of high-quality non-woven carpets, mats, and artificial grass that stand the test of time.</p>
           <div className="btn-area">
-            <button className='main-btn white' ><Link to="/contact">Contact Us</Link></button>
-            <button className='main-btn light'><Link to="/products"> Our Products</Link></button>
+            <Link to="/contact"><button className='main-btn white' >Contact Us</button></Link>
+            <Link to="/products"><button className='main-btn light'> Our Products</button></Link>
           </div>
         </div>
     </div> 

@@ -4,13 +4,9 @@
   background-image:
     linear-gradient(to right,
       rgba(30, 141, 135, 0.7) 0%,
-      /* Teal with 70% opacity on the left */
       rgba(30, 141, 135, 0.5) 50%,
-      /* Teal with 50% opacity in the center */
-      rgba(0, 0, 0, 0.5) 100%
-      /* Black with 50% opacity on the right */
-    ),
-    url('./src/assets/herosection.jpg');  
+      rgba(0, 0, 0, 0.5) 100%),
+    url('./src/assets/herosection.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -23,11 +19,14 @@
 .herosection p {
   text-align: left;
   color: #fff;
+  width: 60%;
+  margin-bottom: 20px;
 }
 
 .herosection p {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 22px;
+  line-height: 32px;
+  opacity: 0.8;
 }
 
 .herosection .container {
@@ -50,6 +49,7 @@
   gap: 20px;
   padding-top: 10px;
 }
+
 .btn-area button {
   padding: 10px 30px;
 }

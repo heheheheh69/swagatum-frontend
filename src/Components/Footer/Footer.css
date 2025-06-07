@@ -12,26 +12,23 @@
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
-    justify-content:center; 
+    justify-content:space-between; 
     gap: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 30px;
-    width: 90%;
+    width: 100%;
 }
 
 .footer-section {
     display: flex;
     flex-direction: column;
     text-align: left;
+    width:auto;
 }
 
 .footer-links {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
 }
 
 .footertext{

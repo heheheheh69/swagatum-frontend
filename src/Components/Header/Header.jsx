@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import "./Header.css";
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
-import { NavLink } from 'react-router-dom';
-
+import { Link, NavLink } from 'react-router-dom';
+import logo from "../../assets/logo.png"
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -13,7 +13,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container innnerHeader">
-        <div className="logo">Logo</div>
+        <div className="logo">
+          <Link to={'/'}>
+            <img src={logo} alt="Logo" />
+          </Link>
+        </div>
 
         <button className="menuBtn" onClick={toggleMenu}>
           <IoIosMenu />

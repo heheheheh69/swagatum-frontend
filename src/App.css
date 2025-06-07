@@ -17,6 +17,15 @@
     max-width: 1240px;
     padding: 0 20px;
 }
+
+.logo{
+    width: 120px;
+
+}
+
+.logo img{
+ width: 100%;
+}
 span{
     font-size: 16px;
     line-height: 1.4;
@@ -42,7 +51,6 @@ h3{
 h2{
     font-size: 24px;
     line-height: 26px;
-    color: #    ;
 }
 
 h4{

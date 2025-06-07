@@ -23,7 +23,7 @@ const Aboutus = () => {
  <br /><br />
                                 <b>Ready to learn more or get in touch? We're here to help—reach out to us today and let's create something amazing together.</b></p>
                                 
-                            <button className='main-btn'><Link to="/about">About Us</Link></button>
+                            <Link to="/contac"><button className='main-btn'>Contact</button></Link>
                         </div>
                     </div>
                 </div>
