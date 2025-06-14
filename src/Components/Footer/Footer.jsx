@@ -19,11 +19,10 @@ const Footer = () => {
         </div>
          <div className="footer-section">
           <h2>Contact Email's</h2>
-          <p> <a href="mailto:sales@mcclnonwovenind.com">Email: sales@mcclnonwovenind.com</a> <br /> <br />
-          <a href="mailto:info@mcclnonwovenind.com"> Email: info@mcclnonwovenind.com </a> <br /> <br />
-         <a href="mailto:account@mcclnonwovenind.com">Email: account@mcclnonwovenind.com</a> <br />
-           
-</p>
+          <p> <a href="mailto:sales@mcclnonwovenind.com">Email: sales@mcclnonwovenind.com</a> </p>
+          <p> <a href="mailto:info@mcclnonwovenind.com"> Email: info@mcclnonwovenind.com </a></p>
+        <p><a href="mailto:account@mcclnonwovenind.com">Email: account@mcclnonwovenind.com</a></p> 
+        
         </div>
         <div className="footer-section footer-links">
           <h2 >Quick Links</h2>
