@@ -10,7 +10,7 @@ const Footer = () => {
          <div className="footer-section">
           <h2>Address</h2>
           <p>Khasra No. 84, New Industrial Area, <br /> Village Thedi Baba Sawan Singh , <br /> Sirsa-125055(Haryana). </p>
-           <button className='map-btn'><Link to="https://maps.app.goo.gl/sgvsjKBvktss9yBMA">view on map</Link></button>
+           <Link to="https://maps.app.goo.gl/sgvsjKBvktss9yBMA"><button className='map-btn'>view on map </button></Link>
         </div>
          <div className="footer-section">
           <h2>Contact Us</h2>
