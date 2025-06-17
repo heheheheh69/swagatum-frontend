@@ -53,3 +53,15 @@
 .btn-area button {
   padding: 10px 30px;
 }
+@media screen and (max-width:790px) {
+  .herosection h1,
+.herosection p {
+  width:100%;
+  text-align: center;
+}
+.btn-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}

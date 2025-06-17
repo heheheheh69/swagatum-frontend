@@ -118,3 +118,31 @@ a{
 
 }
 
+@media screen and (max-width:790px) {
+    span{
+    text-align: center;
+}
+p{
+   text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h2{
+   text-align: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+}
