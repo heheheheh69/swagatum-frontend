@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
 }
@@ -83,7 +83,7 @@ nav a.active {
 
 .header {
   background: #fff;
-  padding: 1rem;
+  /* padding: 1rem; */
   position: relative;
   z-index: 1000;
 }

@@ -1,4 +1,4 @@
-.aboutus{
+.aboutus {
     width: 100%;
     min-height: 500px;
     background-color: #fff;
@@ -8,77 +8,110 @@
     justify-content: center;
     padding: 50px 0;
 }
-.aboutus .container{
-    width:100%;
+
+.aboutus .container {
+    width: 100%;
 }
-.abt-img{
-    width:calc(50%-10px);
+
+.abt-img {
+    width: calc(50%-10px);
 }
-.aboutus-content{
-    width:100%;
+
+.aboutus-content {
+    width: 100%;
     align-items: center;
     display: flex;
-    
-    gap:50px;
+
+    gap: 50px;
 }
-.aboutus-content img{
+
+.aboutus-content img {
     max-width: 500px;
     padding: 0 20px;
 }
-.aboutus-txt{
+
+.aboutus-txt {
     display: flex;
-    width:calc(50%-10px);
+    width: calc(50%-10px);
     flex-direction: column;
-    gap:20px;
-    /* justify-content: space-between;  */
+    gap: 20px;
+    /* justify-content:space-between;  */
 }
-.why-list{
+
+.why-list {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     padding-left: 20px;
 }
-.why-list li span{
+
+.why-list li span {
     font-size: 16px;
     font-weight: bold;
     line-height: 16px;
+    width: 100% !important;
+    display: block;
 }
-.about-txt span{
+
+.about-txt span {
     font-size: 14px;
 }
-.aboutus-txt p{
+
+.aboutus-txt p {
     color: #000000cb;
     /* padding-top: 10px; */
 }
 
 @media screen and (max-width:805px) {
-    .aboutus-content img{
-        max-width:400px;
+    .aboutus-content img {
+        max-width: 400px;
         /* margin-top: 40px; */
     }
-   
-    
-    .about-txt h3{
+
+
+    .about-txt h3 {
         text-align: center;
     }
-    .about-txt h2{
+
+    .about-txt h2 {
         text-align: center;
     }
-     .about-txt p{
+
+    .about-txt p {
         text-align: center;
-     }
+    }
 }
 
 @media screen and (max-width:950px) {
-    .aboutus-content{
+    .aboutus-content {
         flex-direction: column;
-    
+
     }
-    .about-txt a{
+
+    .about-txt a {
         text-align: center;
         display: flex;
         justify-content: center;
     }
-    
-    
+
+
+}
+
+@media screen and (max-width:720px) {
+    .why-list li span {
+        text-align: center;
+        margin-bottom: 10px;
+        color: black;
+
+    }
+
+    .why-list li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 24px ;
+    }
 }

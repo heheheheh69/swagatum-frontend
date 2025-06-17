@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .main {
@@ -18,61 +19,70 @@
     padding: 0 20px;
 }
 
-.logo{
+.logo {
     width: 120px;
 
 }
 
-.logo img{
- width: 100%;
+.logo img {
+    width: 100%;
 }
-span{
+
+span {
     font-size: 16px;
     line-height: 1.4;
     color: #656565;
 }
-p{
+
+p {
     font-size: 16px;
     line-height: 1.4;
-    color:#656565;
+    color: #656565;
 }
-section{
+
+section {
     padding: 50px 0;
 }
-h1{
-    font-size:52px;
+
+h1 {
+    font-size: 52px;
     line-height: 52px;
 }
-h3{
+
+h3 {
     font-size: 48px;
     line-height: 48px;
-        color: #0F3A37;
+    color: #0F3A37;
 }
-h2{
+
+h2 {
     font-size: 24px;
     line-height: 26px;
 }
 
-h4{
+h4 {
     font-size: 32px;
     color: #0F3A37;
     margin-bottom: 20px;
 }
-h5{
+
+h5 {
     font-size: 18px;
     line-height: 1.4;
     color: #000;
 }
-.heading{
+
+.heading {
     text-align: center;
-    margin-bottom: 45px; 
+    margin-bottom: 45px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     align-items: center;
 }
+
 /* .heading::after{
     content: '';
     width: 100px;
@@ -83,33 +93,40 @@ h5{
 
 } */
 
-a{
+a {
     text-decoration: none;
 }
-.main-btn{
+
+.main-btn {
     padding: 10px 30px;
     max-width: 200px;
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
     border: none;
     border-radius: 30px;
     background-color: #1E8D87;
     font-size: 16px;
     color: #fff;
 }
-.main-btn:hover{
+
+.main-btn:hover {
     opacity: 0.7;
     cursor: pointer;
 }
-.light{
-    background:none;
+
+.light {
+    background: none;
     border: 1px solid #fff;
 }
-.white{
+
+.white {
     background-color: #fff;
     color: #1E8D87;
 }
-.light a ,.main-btn a{
+
+.light a,
+.main-btn a {
     color: #fff;
 }
 
@@ -119,30 +136,25 @@ a{
 }
 
 @media screen and (max-width:790px) {
-    span{
-    text-align: center;
-}
-p{
-   text-align: center;
-}
+    span {
+        text-align: center;
+    }
+    
+    p, h1,  h3, h2, a, h4, a, h4, h5{
+        text-align: center !important;
+    }
 
-h1{
-    text-align: center;
+     a {
+        display: flex;
+        justify-content: center;
+    }
+    
 }
-h3{
-    text-align: center;
-}
-h2{
-   text-align: center;
-}
-a{
-    display: flex;
-    justify-content: center;
-}
-h4{
-    text-align: center;
-}
-h5{
-    text-align: center;
-}
+@media screen and (max-width:550px) { 
+    h2{
+        font-size: 22px;
+    }
+    h3{
+     font-size: 40px;
+    }
 }

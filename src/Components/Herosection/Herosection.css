@@ -53,21 +53,36 @@
 .btn-area button {
   padding: 10px 30px;
 }
+
 @media screen and (max-width:790px) {
+
   .herosection h1,
-.herosection p {
-  width:100%;
-  text-align: center;
-}
-.btn-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .herosection p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width:400px) {
-  .aboutus-content img{
-  max-width: 320px !important;
- }
+  .aboutus-content img {
+    max-width: 320px !important;
+  }
+
+  .btn-area {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-area a {
+    width: 100%;
+  }
+  .btn-area button { 
+    width: 100% !important;
+  }
 }
