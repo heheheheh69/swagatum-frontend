@@ -19,9 +19,9 @@ const Footer = () => {
         </div>
          <div className="footer-section">
           <h2>Contact Email's</h2>
-          <p> <a href="mailto:sales@mcclnonwovenind.com">Email: sales@mcclnonwovenind.com</a> </p>
-          <p> <a href="mailto:info@mcclnonwovenind.com"> Email: info@mcclnonwovenind.com </a></p>
-        <p><a href="mailto:account@mcclnonwovenind.com">Email: account@mcclnonwovenind.com</a></p> 
+          <p> <a href="mailto:sales@swagatamcarpet.com">Email: sales@swagatamcarpet.com</a> </p>
+          <p> <a href="mailto:info@swagatamcarpet.com"> Email: info@swagatamcarpet.com </a></p>
+        <p><a href="mailto:account@swagatamcarpet.com">Email: account@swagatamcarpet.com</a></p> 
         
         </div>
         <div className="footer-section footer-links">

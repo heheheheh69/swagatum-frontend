@@ -6,7 +6,7 @@
       rgba(30, 141, 135, 0.7) 0%,
       rgba(30, 141, 135, 0.5) 50%,
       rgba(0, 0, 0, 0.5) 100%),
-    url('./src/assets/herosection.jpg');
+    url('/Images/herosection.jpg');
   background-size: cover;
   background-position: center;
   display: flex;

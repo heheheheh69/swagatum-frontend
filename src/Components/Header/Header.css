@@ -39,6 +39,7 @@ nav a {
 
 nav a.active {
     color: #1E8D87 !important;
+    font-weight: bold;
 }
 
 .closemenu {
@@ -102,7 +103,7 @@ nav a.active {
 
 nav {
   display: flex;
-  gap: 1rem;
+  gap:35px;
 }
 
 /* Hide nav by default on small screens */
@@ -127,7 +128,7 @@ nav {
   }
 
   nav.open {
-    right: 0; /* slide in when menu is open */
+    right: 0; 
   }
 
   .closemenu {

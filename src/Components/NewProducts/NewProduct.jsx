@@ -14,7 +14,7 @@ const NewProduct = () => {
                     <div className="product-sec-card">
                         <div className="image-wrapper">
                             <img
-                                src="./Images/felt.jpg"
+                                src="./Images/Felt.jpg"
                                 alt="felt"
                             />
                         </div>
@@ -100,7 +100,7 @@ const NewProduct = () => {
                         </div>
 
                         <div className="table-container">
-                            <h2 className="table-title">Rib Stripe</h2>
+                            <h2 className="table-title">Stripe</h2>
                             <table className="custom-table">
                                 <thead>
                                     <tr>
@@ -347,7 +347,7 @@ const NewProduct = () => {
                         </div>
 
                         <div className="table-container">
-                            <h2 className="table-title">Printing </h2>
+                            <h2 className="table-title">Paper Printing</h2>
                             <table className="custom-table">
                                 <thead>
                                     <tr>

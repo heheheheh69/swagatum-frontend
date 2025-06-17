@@ -10,30 +10,29 @@ const Products = () => {
                 <div className="container">
                     <div className="heading">
                         <h2>
-                            Products Range
+                            our Products
                         </h2>
                         <h3>
-                            What We Offer
+                            Products Range
                         </h3>
                     </div>
-                <div className="products-content">
-                    <div className="product-category-card">
-                                <h2>Non Woven Carpet</h2>
-                                <Link to="/products">View Products <FaArrowRightLong /></Link>
+                    <div className="products-content">
+                        <div className="product-category-card">
+                            <h2>Non Woven Carpet</h2>
+                            <Link to="/products">View Products <FaArrowRightLong /></Link>
+                        </div>
+                        <div className="product-category-card">
+                            <h2>Matting</h2>
+                            <Link to="/products">View Products <FaArrowRightLong /></Link>
+
+                        </div>
+                        <div className="product-category-card">
+                            <h2>Printing On Non Woven  Carpet</h2>
+                            <Link to="/products">View Products <FaArrowRightLong /></Link>
+                        </div>
+
+
                     </div>
-                    <div className="product-category-card">
-                                <h2>Matting</h2>
-                                <Link to="/products">View Products <FaArrowRightLong /></Link>
-                                
-                    </div>
-                    <div className="product-category-card">
-                                <h2>Printing On Non Woven  Carpet</h2>
-                                <Link to="/products">View Products <FaArrowRightLong /></Link>
-                                
-                    </div>
-                    
-                    
-                </div>
                 </div>
             </div>
         </>
