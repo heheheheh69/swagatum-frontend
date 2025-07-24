@@ -14,7 +14,7 @@ const NewProduct = () => {
                     <div className="product-sec-card">
                         <div className="image-wrapper">
                             <img
-                                src="./Images/Felt.jpg"
+                                src="./Images/felt.jpg"
                                 alt="felt"
                             />
                         </div>
